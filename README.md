@@ -1,4 +1,4 @@
-![alt text](image.png)
+<img width="1584" height="226" alt="image" src="https://github.com/user-attachments/assets/23b1bc5f-e7cd-4795-b6cb-86930420b138" />
 
 _A Classification-based ML Project_  
 **Author:** Wasif Hossain  
