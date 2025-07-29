@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('svm.pkl')
+
 scaler = joblib.load('scaler.pkl')
 expected_columns = joblib.load('columns.pkl')
+models = joblib.load('svm.pkl')
 
 
 # Set page config
@@ -89,7 +90,7 @@ if st.button("Predict"):
     scaled_input = scaler.transform(input_df)
 
     # Make prediction
-    prediction = model.predict(scaled_input)[0]
+    prediction = models.predict(scaled_input)[0]
 
     # Show result
     if prediction == 1:
