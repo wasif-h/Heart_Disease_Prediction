@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('./svm.pkl')
-scaler = joblib.load('./scaler.pkl')
-expected_columns = joblib.load('./columns.pkl')
+model = joblib.load('svm.pkl')
+scaler = joblib.load('scaler.pkl')
+expected_columns = joblib.load('columns.pkl')
 
 
 # Set page config
