@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-
+# set objects 
 scaler = joblib.load('scaler.pkl')
 expected_columns = joblib.load('columns.pkl')
 models = joblib.load('heart_model.pkl')
