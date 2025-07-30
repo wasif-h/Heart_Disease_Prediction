@@ -5,7 +5,7 @@ import joblib
 
 scaler = joblib.load('scaler.pkl')
 expected_columns = joblib.load('columns.pkl')
-models = joblib.load('svm.pkl')
+models = joblib.load('heart_model.pkl')
 
 
 # Set page config
